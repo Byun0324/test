@@ -5,6 +5,7 @@ import datetime     #오늘 날짜를 불러 올 수 있게 해줌
 today = str(datetime.date.today())   # 오늘 날짜를 담음
 print("today=",today)
 #today="2023-08-01"
+
 t=today.split("-")    # 리스트에 오늘 날자를 연/월/일 별로 나누어 담음
 meal_name=["breakfast","lunch","dinner"]
 #https://jeju-s.jje.hs.kr/jeju-s/food/2023/08/28/breakfast
